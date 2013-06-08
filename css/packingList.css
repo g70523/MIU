@@ -1,0 +1,140 @@
+/**
+ * Mobile Interfaces Usability
+ * 1306
+ * Louise Whitney
+ * Assignement 1
+**/
+#users {
+    color:white;
+    padding-top:50px;
+}
+#hed {
+	margin-top: -21px;
+	margin-left: -7px;
+	position: relative;
+	float: left;
+	clear: both;
+}
+#newUser {
+	margin-left: -7px;
+	position: relative;
+	float: left;
+	clear: both;
+}
+#ser {
+	float: left;
+	clear: both;
+	margin-left: -7px;
+}
+#brow {
+	float: left;
+	clear: both;
+	margin-left: -7px;
+}
+#info {
+	float: left;
+	clear: both;
+	max-width: 300px;
+	text-align: center;
+	position: relative;
+	top: 220px;
+}
+#butts {
+	margin-top: 100px;
+	position: absolute;
+}
+#serch {
+	clear: both;
+	float: left;
+	left: 70px;
+	position: absolute;
+	top: 100px;
+	width: 200px;
+}
+#userForm {
+	max-width: 280px;
+	margin-top: 30px;
+	float: left;
+	clear: both;
+}
+#sel {
+	float: left;
+	clear: both;
+	margin-left: 70px;
+	margin-top: 30px;
+}
+.back {
+	clear: both;
+	float: left;
+	margin-top: 20px;
+
+}
+.show {
+    
+    clear: both;
+    margin-bottom: 10px;
+}
+body {
+	background: #f7a740;
+	border: #ffffff;
+	overflow: scroll;
+}
+
+footer{
+	clear: both;
+	margin-top: 5em;
+}
+
+h1{
+	font-family: "Bookman Old Style"; 
+	font-style: italic;
+	font-weight: 600;
+	font-variant: small-caps;
+	color: black;
+	float: left;
+	clear: both;
+}
+
+p{
+	font-variant: small-caps;
+	font-size: 18px;
+	color: black;
+}
+
+legend{
+	font-variant: small-caps;
+	font-size: 22px;
+	text-align: center;
+	color: black;
+}
+
+label{
+	font-size: 14px;
+	color: White;
+
+}
+
+fieldset{
+	color: black;
+	font-size: 12px;
+	clear: both;
+
+}
+
+textarea{
+	font-variant: small-caps;
+	color: #000000;
+}
+nav{
+	margin-left: -30px;
+	padding-bottom: 30px;
+	float: left;
+	clear: both;
+}
+li{
+	list-style-type: none;
+	margin-right: 20px;
+	clear:both;
+	
+}
+a:link {text-decoration:none;}
