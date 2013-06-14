@@ -30,8 +30,8 @@ function radioButton(){
 	}
         
 function checkBox(){
-		if($('userForm').prefer.checked){
-			checkBoxValue = $('userForm').prefer.value;
+		if($('userForm').userPref.checked){
+			checkBoxValue = $('userForm').userPref.value;
 			}else{
 			checkBoxValue = "Driving";
 		}
@@ -57,15 +57,15 @@ function displayData(n){
 		switch(n){
 			case "on":
 				$('userForm').style.display = "none";
-				$('clearUser').style.display = "inline";
-				$('showUser').style.display = "none";
-				$('addUser').style.display = "inline";
+				$('clearUser').style.display = "block";
+				$('showUser').style.display = "block";
+				$('addUser').style.display = "block";
 				break;
 			case "off":	
 				$('userForm').style.display = "block";
-				$('clearUser').style.display = "inline";
-				$('showUser').style.display = "inline";
-				$('addUser').style.display = "none";
+				$('clearUser').style.display = "block";
+				$('showUser').style.display = "block";
+				$('addUser').style.display = "block";
 				$('users').style.display = "none";
 				break;
 		}
@@ -275,7 +275,7 @@ function validate(x) {
 			}//code
 }
         
-var travelTime = ["--How long do you want to stay?--", "Overnight", "2 Nights", "3 Nights", "4 Nights", "5 Nights", "6 Nights", "One Week", "Two Weeks"];
+var travelTime = ["--Length of Travel--", "Overnight", "2 Nights", "3 Nights", "4 Nights", "5 Nights", "6 Nights", "One Week", "Two Weeks"];
     checkBoxValue = "Driving";
   
 
